@@ -1,0 +1,86 @@
+.contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+      /* scroll */
+  padding-top: 3rem;
+  
+}
+/*left side*/
+.awesome3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .awesome3 > :nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .awesome3 > :nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .s-blur1{
+    left:12rem;
+    top:2rem
+  }
+  
+/*right side*/
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;  
+}
+.c-right>form
+{
+    display: flex;
+    flex-direction:column ;
+    gap: 2rem;
+    align-items: center;   
+}
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;   
+}
+textarea{
+    height: 4rem!important;
+}
+.c-blur1{
+    top: 15rem;
+    left: -20rem;
+}
+.swal2-popup {
+    background-color: #0e0303;
+  }
+
+@media (min-width: 760px) and (max-width: 820px) {
+    .contact-form{
+        padding: 2rem 4rem;
+        flex-direction: column;
+        gap: 5rem;
+        height: 30rem;
+    }
+    .c-right .user{
+        width: 25rem;
+    }
+}  
+
+@media screen and (max-width: 480px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+}  
