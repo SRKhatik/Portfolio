@@ -25,20 +25,18 @@ const Contact = () => {
           setDone(true);
           const Toast = Swal.mixin({
             toast: true,
-            position: 'top-end',
+            position: "top-end",
             showConfirmButton: false,
             timer: 3000,
             timerProgressBar: true,
             didOpen: (toast) => {
-              toast.addEventListener('mouseenter', Swal.stopTimer)
-              toast.addEventListener('mouseleave', Swal.resumeTimer)
-            }
-          })
+              toast.addEventListener("mouseenter", Swal.stopTimer);
+              toast.addEventListener("mouseleave", Swal.resumeTimer);
+            },
+          });
           Toast.fire({
-            icon:"success",
-            title: 'Signed in successfully'
-
-          })
+            title: "Message Send To Shubham successfully",
+          });
         },
         (error) => {
           console.log(error.text);
