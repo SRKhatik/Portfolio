@@ -7,6 +7,11 @@ import {
   } from "react-icons/ri";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
+import Ecom from "../../img/ecom.jpg";
+import Weather from "../../img/weather.jpg";
+import Movie from "../../img/movie.jpg";
+import Portfolios from "../../img/portfolio.jpg";
+import Crm from "../../img/crm.jpg";
 function Portfolio() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -25,7 +30,7 @@ function Portfolio() {
           grabCursor={true}
         >
           <SwiperSlide>
-            <img src="src/img/ecom.jpg" alt="ecom" />
+            <img src={Ecom} alt="ecom" />
             <h3>Ecommerce App</h3>
             
             <a href="https://s-mart-ecommerce-web-shubhamkhatik14.netlify.app/">
@@ -33,7 +38,7 @@ function Portfolio() {
               </a>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="src/img/crm.jpg" alt="crm" />
+            <img src={Crm} alt="crm" />
             <h3>CRM App</h3>
             <a href="https://leafy-bombolone-f83ab9.netlify.app/">
             <h4 style={{color: darkMode? 'yellow':''}}>View Demo</h4><RiArrowRightCircleFill/>
@@ -41,7 +46,7 @@ function Portfolio() {
             
           </SwiperSlide>
           <SwiperSlide>
-            <img src="src/img/movie.jpg" alt="movie" />
+            <img src={Movie} alt="movie" />
             <h3>Movie Booking App</h3>
            
             <a href="#">
@@ -50,7 +55,7 @@ function Portfolio() {
            
           </SwiperSlide>
           <SwiperSlide>
-            <img src="src/img/weather.jpg" alt="weather" />
+            <img src={Weather} alt="weather" />
             <h3>Weather App</h3>
          
             <a href="https://weather-app-srk.netlify.app/">
@@ -59,7 +64,7 @@ function Portfolio() {
       
           </SwiperSlide>
           <SwiperSlide>
-            <img src="src/img/portfolio.jpg" alt="portfolio" />
+            <img src={Portfolios} alt="portfolio" />
             <h3>Portfolio App</h3>
  
             <a href="#">

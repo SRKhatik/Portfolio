@@ -3,6 +3,12 @@ import "./Intro.css";
 import FloatinDiv from "../Floating/Floating";
 import Crown from "./images/c.png";
 import Thumbup from "./images/thumbup.png";
+import Sk from "../../img/sk.1.png";
+import Vector1 from "../../img/Vector1.png"
+import Vector2 from "../../img/Vector2.png"
+import Instagram from "../../img/instagram.png"
+import Github from "../../img/github.png"
+import Linkdin from "../../img/linkedin.png"
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import {motion} from 'framer-motion';
@@ -29,13 +35,13 @@ function Intro() {
         </Link>
         <div className="i-icons">
           <a href="https://github.com/SRKhatik">
-            <img src="src/img/github.png" alt="github" />
+            <img src={Github} alt="github" />
           </a>
           <a href="https://www.linkedin.com/in/shubham-khatik-4a21a9203/">
-            <img src="src/img/linkedin.png" alt="linkedin" />
+            <img src={Linkdin} alt="linkedin" />
           </a>
           <a href="https://www.instagram.com/shubham.khatik.1650/">
-            <img src="src/img/instagram.png" alt="instagram" />
+            <img src={Instagram} alt="instagram" />
           </a>
         </div>
       </div>
@@ -43,9 +49,10 @@ function Intro() {
     { /*right side*/}
 
       <div className="i-right">
-        <img src="src/img/Vector1.png" alt="V1" />
-        <img src="src/img/Vector2.png" alt="V2" />
-        <img src="src/img/sk.1.png" alt="sk" />
+        
+        <img src={Vector1} alt="V1" />
+        <img src={Vector2} alt="v2" />
+        <img src={Sk} alt=""/>
         <motion.div 
          initial={{ top: "-4%", left: "74%" }}
          whileInView={{ left: "68%" }}

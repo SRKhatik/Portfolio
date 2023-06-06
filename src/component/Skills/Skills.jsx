@@ -2,6 +2,25 @@ import React from "react";
 import "./Skills.css";
 import { useContext } from "react";
 import {themeContext} from "../../Context";
+import Js from "../../img/javascript-1.svg";
+import Html from "../../img/html-1.svg";
+import Css from "../../img/css-3.svg";
+import Reactjs from "../../img/react-2.svg";
+import Bootstrap from "../../img/bootstrap-5-1.svg";
+import Node from "../../img/nodejs-icon.svg";
+import Express from "../../img/express.png";
+import Git from "../../img/git-icon.svg";
+import Npm from "../../img/npm.png";
+import Postman from "../../img/postman.svg";
+import mong from "../../img/mongodb.svg";
+import Sql from "../../img/mysql-4.svg";
+import github from "../../img/github.png";
+import Vscode from "../../img/vs-code.png";
+import Autocad from "../../img/Autocad.png";
+import Catia  from "../../img/catia.png";
+import Creo from "../../img/creo.png";
+import Illu from "../../img/illustrator.svg";
+import Ms from "../../img/ms.svg";
 
 function Skills() {
   const theme = useContext(themeContext)
@@ -14,7 +33,7 @@ function Skills() {
         <div className="achievement2" >
           <div className="circle1">
             <img
-              src="src/img/javascript-1.svg"
+              src={Js}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "5px" }}
             />
@@ -25,7 +44,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/html-1.svg"
+              src={Html}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "5px" }}
             />
@@ -36,7 +55,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/css-3.svg"
+              src={Css}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "5px" }}
             />
@@ -47,7 +66,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/react-2.svg"
+              src={Reactjs}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
@@ -58,7 +77,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/bootstrap-5-1.svg"
+              src={Bootstrap}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
@@ -73,7 +92,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/nodejs-icon.svg"
+              src={Node}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
@@ -84,7 +103,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/express.png"
+              src={Express}
               alt="Image"
               style={{ width: "100%", height: "100%", marginTop: "1px" }}
             />
@@ -95,7 +114,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/git-icon.svg"
+              src={Git}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
@@ -106,7 +125,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/npm.png"
+              src={Npm}
               alt="Image"
               style={{ width: "60%", height: "70%", marginTop: "2px" }}
             />
@@ -117,7 +136,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/postman.svg"
+              src={Postman}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
@@ -132,7 +151,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/mysql-4.svg"
+              src={Sql}
               alt="Image"
               style={{ width: "60%", height: "60%", marginTop: "5px" }}
             />
@@ -143,7 +162,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/mongodb.svg"
+              src={mong}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
@@ -158,7 +177,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/vs-code.png"
+              src={Vscode}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
@@ -169,7 +188,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/github-logo.png"
+              src={github}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
@@ -180,7 +199,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/ms.svg"
+              src={Ms}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
@@ -191,7 +210,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/Autocad.png"
+              src={Autocad}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
@@ -202,7 +221,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/creo.png"
+              src={Creo}
               alt="Image"
               style={{ width: "65%", height: "60%", marginTop: "5px" }}
             />
@@ -213,7 +232,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/catia.png"
+              src={Catia}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "5px" }}
             />
@@ -224,7 +243,7 @@ function Skills() {
         <div className="achievement2">
           <div className="circle1">
             <img
-              src="src/img/illustrator.svg"
+              src={Illu}
               alt="Image"
               style={{ width: "70%", height: "70%", marginTop: "5px" }}
             />
