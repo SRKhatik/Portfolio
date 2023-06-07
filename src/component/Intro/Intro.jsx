@@ -23,7 +23,7 @@ function Intro() {
     <div className="Intro" id="Home">
       <div className="i-left">
         <div className="i-name">
-          <span style={{color: darkMode? 'white':''}}>Hi! I Am </span>
+          <span style={{color: darkMode? 'white':''}}>Hi ! I Am </span>
           <span>Shubham R.Khatik </span>
           <span style={{color: darkMode? 'white':''}}>
             FullStack Web Developer Passionate about designing beautiful web
