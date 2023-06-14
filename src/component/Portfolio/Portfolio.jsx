@@ -39,7 +39,7 @@ function Portfolio() {
           </SwiperSlide>
           <SwiperSlide>
             <img src={Crm} alt="crm" />
-            <h3>CRM APP</h3>
+            <h3>CRM App</h3>
             <a href="https://crm-application-2023.netlify.app/">
             <h4 style={{color: darkMode? 'yellow':''}}>View Demo</h4><RiArrowRightCircleFill/>
               </a>
