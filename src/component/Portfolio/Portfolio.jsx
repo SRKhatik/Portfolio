@@ -39,8 +39,8 @@ function Portfolio() {
           </SwiperSlide>
           <SwiperSlide>
             <img src={Crm} alt="crm" />
-            <h3>CRM App</h3>
-            <a href="https://leafy-bombolone-f83ab9.netlify.app/">
+            <h3>CRM APP</h3>
+            <a href="https://crm-application-2023.netlify.app/">
             <h4 style={{color: darkMode? 'yellow':''}}>View Demo</h4><RiArrowRightCircleFill/>
               </a>
             
@@ -67,7 +67,7 @@ function Portfolio() {
             <img src={Portfolios} alt="portfolio" />
             <h3>Portfolio App</h3>
  
-            <a href="#">
+            <a href="https://shubham-r-khatik.netlify.app/">
             <h4 style={{color: darkMode? 'yellow':''}}>View Demo</h4><RiArrowRightCircleFill/>
               </a>
             
