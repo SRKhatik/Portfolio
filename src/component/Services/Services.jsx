@@ -7,7 +7,7 @@ import {
   RiDatabaseFill,
   RiComputerFill,
 } from "react-icons/ri";
-import Resume from "./resume.pdf";
+import Resume from "./Resume.pdf";
 import { useContext } from "react";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -16,7 +16,7 @@ const Services = () => {
   const transition = { duration: 1, type: "spring" };
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-  
+
   return (
     <div className="services" id="services">
       {/* Left side */}
@@ -33,10 +33,7 @@ const Services = () => {
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
-        <div
-          className="blur s-blur1"
-          style={{ background: "#ABF1FF94" }}
-        ></div>
+        <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
 
       {/* Right side */}
@@ -56,11 +53,15 @@ const Services = () => {
 
         {/* Second card */}
         <motion.div
-          initial={{ bottom:"12rem",right: "6rem" }}
+          initial={{ bottom: "12rem", right: "6rem" }}
           whileInView={{ right: "-1rem" }}
           transition={transition}
         >
-          <Card icon={<RiDatabaseFill />} heading={" DataBase "} details={"My-SQL, MongoDB"} />
+          <Card
+            icon={<RiDatabaseFill />}
+            heading={" DataBase "}
+            details={"My-SQL, MongoDB"}
+          />
         </motion.div>
 
         {/* Third card */}
@@ -78,7 +79,7 @@ const Services = () => {
 
         {/* Fourth card */}
         <motion.div
-          initial={{right: "1rem" }}
+          initial={{ right: "1rem" }}
           whileInView={{ left: "1rem" }}
           transition={transition}
         >
@@ -98,4 +99,3 @@ const Services = () => {
 };
 
 export default Services;
-

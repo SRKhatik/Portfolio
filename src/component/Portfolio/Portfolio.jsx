@@ -12,6 +12,7 @@ import Weather from "../../img/weather.jpg";
 import Movie from "../../img/movie.jpg";
 import Portfolios from "../../img/portfolio.jpg";
 import Crm from "../../img/crm.jpg";
+import Game from "../../img/tic-tac.jpg";
 function Portfolio() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -49,7 +50,7 @@ function Portfolio() {
             <img src={Movie} alt="movie" />
             <h3>Movie Booking App</h3>
            
-            <a href="#">
+            <a href="https://movie-nights-srk.netlify.app">
             <h4 style={{color: darkMode? 'yellow':''}}>View Demo</h4><RiArrowRightCircleFill/>
               </a>
            
@@ -67,7 +68,17 @@ function Portfolio() {
             <img src={Portfolios} alt="portfolio" />
             <h3>Portfolio App</h3>
  
-            <a href="https://shubham-r-khatik.netlify.app/">
+            <a href="#">
+            <h4 style={{color: darkMode? 'yellow':''}}>View Demo</h4><RiArrowRightCircleFill/>
+              </a>
+            
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img src={Game} alt="tictactoe" />
+            <h3>Tic-Tac-Toe-Game</h3>
+ 
+            <a href="https://tic-tac-toe-srk.netlify.app">
             <h4 style={{color: darkMode? 'yellow':''}}>View Demo</h4><RiArrowRightCircleFill/>
               </a>
             
