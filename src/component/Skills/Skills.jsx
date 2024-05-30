@@ -2,6 +2,8 @@ import React from "react";
 import "./Skills.css";
 import { useContext } from "react";
 import {themeContext} from "../../Context";
+import liquid from "../../img/liquid.jpg";
+import shopify from "../../img/shopify-logo.png";
 import Js from "../../img/javascript-1.svg";
 import Html from "../../img/html-1.svg";
 import Css from "../../img/css-3.svg";
@@ -30,6 +32,28 @@ function Skills() {
       <h2 style={{color: darkMode? 'white':''}}>Skills</h2>
       <h1>Frontend</h1>
       <div className="achievement1">
+      <div className="achievement2" >
+          <div className="circle1">
+            <img
+              src={shopify}
+              alt="Image"
+              style={{ width: "70%", height: "70%", marginTop: "5px" }}
+            />
+          </div>
+          <span style={{color: darkMode? 'gray':''}}>shopify</span>
+          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+        </div>
+        <div className="achievement2" >
+          <div className="circle1">
+            <img
+              src={liquid}
+              alt="Image"
+              style={{ width: "70%", height: "70%", marginTop: "5px" }}
+            />
+          </div>
+          <span style={{color: darkMode? 'gray':''}}>liquid</span>
+          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+        </div>
         <div className="achievement2" >
           <div className="circle1">
             <img
@@ -83,7 +107,7 @@ function Skills() {
             />
           </div>
           <span style={{color: darkMode? 'gray':''}}>Bootstrap</span>
-          <span style={{color: darkMode? 'white':''}}>Basic</span>
+          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
         </div>
       </div>
       {/*---------------------------------------------------------------------------------*/}
@@ -157,7 +181,7 @@ function Skills() {
             />
           </div>
           <span style={{color: darkMode? 'gray':''}}>My-Sql</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+          <span style={{color: darkMode? 'white':''}}>Basic</span>
         </div>
         <div className="achievement2">
           <div className="circle1">
@@ -168,7 +192,7 @@ function Skills() {
             />
           </div>
           <span style={{color: darkMode? 'gray':''}}>MongoDB</span>
-          <span style={{color: darkMode? 'white':''}}>Basic</span>
+          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
         </div>
       </div>
       {/*---------------------------------------------------------------------------------*/}

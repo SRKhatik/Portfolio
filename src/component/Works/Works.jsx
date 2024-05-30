@@ -7,12 +7,19 @@ import "swiper/css/pagination";
 import work2 from "../../img/hni-2.png";
 import work1 from "../../img/free.jpg";
 import work3 from "../../img/sai.png";
+import work4 from "../../img/thepixeledge.jpg";
 import { useContext } from "react";
 import { themeContext } from "../../Context";
 const Works = () => {
   const theme = useContext(themeContext)
   const darkMode=theme.state.darkMode
   const clients = [
+    {
+      img:work4,
+      heading:"ThePixelEdge",
+      review:
+        "Since June 2023, I've been working full-time at ThePixelEdge in a hybrid mode, specializing in frontend development. My role involves creating and enhancing Shopify e-commerce websites for seamless user experiences and optimized performance. I collaborate with teams to implement innovative features, driving client success and boosting sales.",
+    },
     {
       img:work1,
       heading:"Freelance Work",
