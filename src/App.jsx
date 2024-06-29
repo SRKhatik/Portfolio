@@ -7,7 +7,7 @@ import Education from "./component/Education/Education";
 import Portfolio from "./component/Portfolio/Portfolio";
 import Skills from "./component/Skills/Skills";
 import Works from "./component/Works/Works"
-import Contact from "./component/contact/contact";
+import Contact from "./component/Contact/contact";
 import Footer from "./component/Footer/Footer";
 import { useContext } from "react";
 import {themeContext} from "./Context";
