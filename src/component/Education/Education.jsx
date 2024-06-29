@@ -35,12 +35,6 @@ const Education = () => {
             <span style={{ color: darkMode ? "white" : "" }}>
               M.M.P.C Warora(MSBTE )
             </span>
-
-            <h3 style={{ color: darkMode ? "white" : "" }}>
-              <AiFillSafetyCertificate /> CAD-CAM Diploma
-            </h3>
-            <span style={{ color: darkMode ? "white" : "" }}>IIPDM Nagpur</span>
-
             <h3 style={{ color: darkMode ? "white" : "" }}>
               <AiFillSafetyCertificate /> HSC
             </h3>

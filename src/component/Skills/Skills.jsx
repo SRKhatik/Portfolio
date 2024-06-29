@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import { useContext } from "react";
-import {themeContext} from "../../Context";
+import { themeContext } from "../../Context";
 import liquid from "../../img/liquid.jpg";
 import shopify from "../../img/shopify-logo.png";
 import Js from "../../img/javascript-1.svg";
@@ -18,21 +18,18 @@ import mong from "../../img/mongodb.svg";
 import Sql from "../../img/mysql-4.svg";
 import github from "../../img/github.png";
 import Vscode from "../../img/vs-code.png";
-import Autocad from "../../img/Autocad.png";
-import Catia  from "../../img/catia.png";
-import Creo from "../../img/creo.png";
-import Illu from "../../img/illustrator.svg";
+import figma from "../../img/figma.png";
 import Ms from "../../img/ms.svg";
 
 function Skills() {
-  const theme = useContext(themeContext)
+  const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
     <div className="skills" id="skills">
-      <h2 style={{color: darkMode? 'white':''}}>Skills</h2>
+      <h2 style={{ color: darkMode ? "white" : "" }}>Skills</h2>
       <h1>Frontend</h1>
       <div className="achievement1">
-      <div className="achievement2" >
+        <div className="achievement2">
           <div className="circle1">
             <img
               src={shopify}
@@ -40,10 +37,10 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "5px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>shopify</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>shopify</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
         </div>
-        <div className="achievement2" >
+        <div className="achievement2">
           <div className="circle1">
             <img
               src={liquid}
@@ -51,10 +48,10 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "5px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>liquid</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>liquid</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
         </div>
-        <div className="achievement2" >
+        <div className="achievement2">
           <div className="circle1">
             <img
               src={Js}
@@ -62,8 +59,8 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "5px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>JavaScript</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>JavaScript</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
         </div>
         <div className="achievement2">
           <div className="circle1">
@@ -73,8 +70,8 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "5px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>HTML</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>HTML</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
         </div>
         <div className="achievement2">
           <div className="circle1">
@@ -84,8 +81,8 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "5px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>CSS</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>CSS</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
         </div>
         <div className="achievement2">
           <div className="circle1">
@@ -95,8 +92,8 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>React-JS</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>React-JS</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
         </div>
         <div className="achievement2">
           <div className="circle1">
@@ -106,8 +103,8 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>Bootstrap</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>Bootstrap</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
         </div>
       </div>
       {/*---------------------------------------------------------------------------------*/}
@@ -121,8 +118,8 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>Node-JS</span>
-          <span style={{color: darkMode? 'white':''}}>Basic</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>Node-JS</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Basic</span>
         </div>
         <div className="achievement2">
           <div className="circle1">
@@ -132,8 +129,8 @@ function Skills() {
               style={{ width: "100%", height: "100%", marginTop: "1px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>Express-JS</span>
-          <span style={{color: darkMode? 'white':''}}>Basic</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>Express-JS</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Basic</span>
         </div>
         <div className="achievement2">
           <div className="circle1">
@@ -143,8 +140,8 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>GIT</span>
-          <span style={{color: darkMode? 'white':''}}>Basic</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>GIT</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Basic</span>
         </div>
         <div className="achievement2">
           <div className="circle1">
@@ -154,19 +151,8 @@ function Skills() {
               style={{ width: "60%", height: "70%", marginTop: "2px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>NPM</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
-        </div>
-        <div className="achievement2">
-          <div className="circle1">
-            <img
-              src={Postman}
-              alt="Image"
-              style={{ width: "70%", height: "70%", marginTop: "1px" }}
-            />
-          </div>
-          <span style={{color: darkMode? 'gray':''}}>Postman</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>NPM</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
         </div>
       </div>
       {/*---------------------------------------------------------------------------------*/}
@@ -180,8 +166,8 @@ function Skills() {
               style={{ width: "60%", height: "60%", marginTop: "5px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>My-Sql</span>
-          <span style={{color: darkMode? 'white':''}}>Basic</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>My-Sql</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Basic</span>
         </div>
         <div className="achievement2">
           <div className="circle1">
@@ -191,8 +177,8 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>MongoDB</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>MongoDB</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
         </div>
       </div>
       {/*---------------------------------------------------------------------------------*/}
@@ -206,8 +192,8 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>VSCode</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>VSCode</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
         </div>
         <div className="achievement2">
           <div className="circle1">
@@ -217,8 +203,30 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>GitHub</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>GitHub</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
+        </div>
+        <div className="achievement2">
+          <div className="circle1">
+            <img
+              src={Postman}
+              alt="Image"
+              style={{ width: "70%", height: "70%", marginTop: "1px" }}
+            />
+          </div>
+          <span style={{ color: darkMode ? "gray" : "" }}>Postman</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
+        </div>
+        <div className="achievement2">
+          <div className="circle1">
+            <img
+              src={figma}
+              alt="Image"
+              style={{ width: "auto", height: "80%", marginTop: "1px" }}
+            />
+          </div>
+          <span style={{ color: darkMode ? "gray" : "" }}>Figma</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
         </div>
         <div className="achievement2">
           <div className="circle1">
@@ -228,52 +236,8 @@ function Skills() {
               style={{ width: "70%", height: "70%", marginTop: "1px" }}
             />
           </div>
-          <span style={{color: darkMode? 'gray':''}}>Ms-office</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
-        </div>
-        <div className="achievement2">
-          <div className="circle1">
-            <img
-              src={Autocad}
-              alt="Image"
-              style={{ width: "70%", height: "70%", marginTop: "1px" }}
-            />
-          </div>
-          <span style={{color: darkMode? 'gray':''}}>Auto-CAD</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
-        </div>
-        <div className="achievement2">
-          <div className="circle1">
-            <img
-              src={Creo}
-              alt="Image"
-              style={{ width: "65%", height: "60%", marginTop: "5px" }}
-            />
-          </div>
-          <span style={{color: darkMode? 'gray':''}}>Creo3.0</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
-        </div>
-        <div className="achievement2">
-          <div className="circle1">
-            <img
-              src={Catia}
-              alt="Image"
-              style={{ width: "70%", height: "70%", marginTop: "5px" }}
-            />
-          </div>
-          <span style={{color: darkMode? 'gray':''}}>CATIA</span>
-          <span style={{color: darkMode? 'white':''}}>Intermediate</span>
-        </div>
-        <div className="achievement2">
-          <div className="circle1">
-            <img
-              src={Illu}
-              alt="Image"
-              style={{ width: "70%", height: "70%", marginTop: "5px" }}
-            />
-          </div>
-          <span style={{color: darkMode? 'gray':''}}>Illustrator</span>
-          <span style={{color: darkMode? 'white':''}}>Basic</span>
+          <span style={{ color: darkMode ? "gray" : "" }}>Ms-office</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Intermediate</span>
         </div>
       </div>
     </div>

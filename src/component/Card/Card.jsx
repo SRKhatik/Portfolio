@@ -11,7 +11,7 @@ function Card({ icon, heading, details }) {
       <span>{icon}</span>
       <span>{heading}</span>
       <span style={{ color: darkMode ? "black" : "" }}>{details}</span>
-      <button className="c-button"> LEARN MORE</button>
+      {/* <button className="c-button"> LEARN MORE</button> */}
     </div>
   );
 }

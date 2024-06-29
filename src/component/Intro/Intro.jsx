@@ -26,7 +26,7 @@ function Intro() {
           <span style={{color: darkMode? 'white':''}}>Hi ! I Am </span>
           <span>Shubham R.Khatik </span>
           <span style={{color: darkMode? 'white':''}}>
-            FullStack Web Developer Passionate about designing beautiful web
+           Shopify & Frontend Web Developer Passionate about designing beautiful web
             interfaces,producing the quality work, Based in India.
           </span>
         </div>
@@ -58,7 +58,7 @@ function Intro() {
          whileInView={{ left: "68%" }}
          transition={transition}
          className="floating-div">
-        <FloatinDiv image={Crown} text1="Web" text2="Developer" />
+        <FloatinDiv image={Crown} text1="Shopify" text2="Developer" />
         </motion.div>
 
         <motion.div initial={{ left: "19rem", top: "18rem" }}

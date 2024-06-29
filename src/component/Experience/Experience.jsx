@@ -8,6 +8,11 @@ function Experience() {
   const darkMode = theme.state.darkMode;
   return (
     <div className="experience">
+       <div className="achievement"> 
+        <div className="circle"style={{color: darkMode?'var(--orange)':''}}>7+</div>
+        <span style={{color: darkMode? 'white':''}}>Shopify</span>
+        <span> Projects</span>
+        </div>
         <div className="achievement"> 
         <div className="circle"style={{color: darkMode?'var(--orange)':''}}>5+</div>
         <span style={{color: darkMode? 'white':''}}>completed</span>

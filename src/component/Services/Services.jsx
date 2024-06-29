@@ -47,7 +47,7 @@ const Services = () => {
           <Card
             icon={<RiBracesLine />}
             heading={" Frontend "}
-            details={"Javascript, React-JS, Html, Css, Bootstrap"}
+            details={"Javascript, Liquid, React-JS, Html, Css, Bootstrap"}
           />
         </motion.div>
 
@@ -73,7 +73,7 @@ const Services = () => {
           <Card
             icon={<RiComputerFill />}
             heading={"Software "}
-            details={" Vs-code, Postman, GitHub, Ms-office, Illustrator"}
+            details={"Shopify, Vs-code, Postman, GitHub, Figma, Ms-office"}
           />
         </motion.div>
 
