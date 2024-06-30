@@ -7,7 +7,7 @@ import {
   RiDatabaseFill,
   RiComputerFill,
 } from "react-icons/ri";
-import Resume from "./Resume.pdf";
+// import Resume from "./Resume.pdf";
 import { useContext } from "react";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -30,7 +30,7 @@ const Services = () => {
           <br />
           with professional Frontend & Backend work and customer support.
         </span>
-        <a href={Resume} download>
+        <a href={"/Resume.pdf"} download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
