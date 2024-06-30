@@ -1,5 +1,5 @@
 import React from "react";
-import "./card.css";
+import "./Card.css";
 import { useContext } from "react";
 import { themeContext } from "../../Context";
 
