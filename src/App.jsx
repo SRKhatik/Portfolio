@@ -6,20 +6,22 @@ import Experience from "./component/Experience/Experience";
 import Education from "./component/Education/Education";
 import Portfolio from "./component/Portfolio/Portfolio";
 import Skills from "./component/Skills/Skills";
-import Works from "./component/Works/Works"
+import Works from "./component/Works/Works";
 import Contact from "./component/Contact/contact";
 import Footer from "./component/Footer/Footer";
 import { useContext } from "react";
-import {themeContext} from "./Context";
+import { themeContext } from "./Context";
 function App() {
-  const theme = useContext(themeContext)
+  const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="App"
+    <div
+      className="App"
       style={{
-        background : darkMode? 'black':'',
-        color:darkMode? "white":"",
-      }}>
+        background: darkMode ? "black" : "",
+        color: darkMode ? "white" : "",
+      }}
+    >
       <Navbar />
       <Intro />
       <Services />
@@ -27,9 +29,9 @@ function App() {
       <Skills />
       <Portfolio />
       <Experience />
-      <Works/>
-      <Contact/>
-      <Footer/>
+      <Works />
+      <Contact />
+      <Footer />
     </div>
   );
 }

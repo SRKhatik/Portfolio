@@ -9,19 +9,25 @@ const Contact = () => {
   const darkMode = theme.state.darkMode;
   const form = useRef();
   const [done, setDone] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
+    if (!form.current) {
+      console.error("Form reference is not set correctly.");
+      return;
+    }
+
     emailjs
       .sendForm(
-        "service_1d1uouk",
-        "template_uy89uzg",
+        "service_02quiba",
+        "template_5v9uugl",
         form.current,
-        "7oMPR8SJvwy6p95-O"
+        "FBt4mzw6NqH9yWFa2"
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log("Email successfully sent:", result.text);
           setDone(true);
           const Toast = Swal.mixin({
             toast: true,
@@ -35,18 +41,17 @@ const Contact = () => {
             },
           });
           Toast.fire({
-            title: "Message Send To Shubham successfully",
+            title: "Message sent to Shubham successfully",
           });
         },
         (error) => {
-          console.log(error.text);
+          console.error("Error sending email:", error.text);
         }
       );
   };
 
   return (
     <div className="contact-form" id="contact">
-      {/* left side copy and paste from work section */}
       <div className="w-left">
         <div className="awesome3">
           <span style={{ color: darkMode ? "white" : "" }}>Get in Touch</span>
@@ -60,17 +65,23 @@ const Contact = () => {
             type="text"
             name="user_name"
             className="user"
-            placeholder="name"
+            placeholder="Name"
+            required
           />
           <input
             type="email"
             name="user_email"
             className="user"
-            placeholder="email"
+            placeholder="Email"
+            required
           />
-          <textarea type="message" className="user" placeholder="message" />
+          <textarea
+            name="message"
+            className="user"
+            placeholder="Message"
+            required
+          />
           <input type="submit" value="Send" className="button" />
-
           <div
             className="blur s-blur1"
             style={{ background: "var(--purple)" }}
