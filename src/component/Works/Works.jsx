@@ -9,6 +9,7 @@ import work1 from "../../img/free.jpg";
 import work3 from "../../img/sai.png";
 import work4 from "../../img/thepixeledge.jpg";
 import work5 from "../../img/vmart.jpg";
+import work6 from "../../img/pure_logo.jpeg";
 import { useContext } from "react";
 import { themeContext } from "../../Context";
 const Works = () => {
@@ -16,10 +17,16 @@ const Works = () => {
   const darkMode = theme.state.darkMode;
   const clients = [
     {
+      img: work6,
+      heading: "Pure Cosmeceuticals Pvt. Ltd",
+      review:
+        "Since September 2024, I have been working full-time remotely at Pure Cosmeceuticals Pvt. Ltd as a Shopify Developer, specializing in theme development, as well as frontend and backend development. My role focuses on creating and optimizing Shopify e-commerce websites to deliver seamless user experiences and superior performance. I collaborate with cross-functional teams to implement innovative features, customize functionalities, and ensure scalable solutions, driving client success and boosting online sales",
+    },
+    {
       img: work4,
       heading: "ThePixelEdge",
       review:
-        "Since June 2023, I've been working full-time at ThePixelEdge in a hybrid mode, specializing in frontend development. My role involves creating and enhancing Shopify e-commerce websites for seamless user experiences and optimized performance. I collaborate with teams to implement innovative features, driving client success and boosting sales.",
+        "From June 2023 to September 2024, I worked full-time at ThePixelEdge in a hybrid role as a Shopify Theme Developer. I specialized in designing and optimizing Shopify e-commerce websites, delivering seamless user experiences and enhanced performance. Collaborating with teams, I implemented innovative features to drive client success and increase sales.",
     },
     {
       img: work1,
