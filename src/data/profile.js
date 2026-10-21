@@ -197,13 +197,13 @@ export const experience = [
   {
     company: "Pure Cosmeceuticals Pvt. Ltd",
     role: "Shopify Developer",
-    period: "Sep 2024 – Present",
+    period: "Sep 2024 – Jan 2026",
     type: "Full-time · Remote",
     logo: "pure",
     points: [
-      "Theme development plus frontend & backend customisation of Shopify stores.",
-      "Build and optimise features that improve performance, UX and online sales.",
-      "Work with cross-functional teams on scalable, custom store functionality.",
+      "Handled theme development plus frontend & backend customisation of Shopify stores.",
+      "Built and optimised features that improved performance, UX and online sales.",
+      "Worked with cross-functional teams on scalable, custom store functionality.",
     ],
   },
   {
