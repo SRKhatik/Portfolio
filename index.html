@@ -1,27 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SRK_Portfolio</title>
-    <style>
-      @font-face {
-        font-family: Gumela;
-        src: url("../vite-project/src/font/Gumela.ttf");
+    <title>Shubham Khatik · Shopify Developer, AI Agents & Marketplace Expert</title>
+    <meta name="description" content="Shubham Khatik (SRKhatik) is a Shopify and frontend developer from Hinganghat, Maharashtra, India. Founder of MKOJI Makhana. He builds Shopify stores, AI agents and Amazon and Flipkart listings." />
+    <meta name="keywords" content="Shubham Khatik, SRKhatik, mkoji, Shopify developer, Liquid, React developer, AI agents, Amazon listing, Flipkart listing, Hinganghat, Maharashtra" />
+    <meta name="author" content="Shubham Khatik" />
+    <meta name="theme-color" content="#0a0b10" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Shubham Khatik · Shopify, AI Agents & Marketplace Developer" />
+    <meta property="og:description" content="Shopify stores, AI-powered automation and Amazon & Flipkart listings. Portfolio of Shubham Khatik, founder of MKOJI Makhana." />
+    <meta property="og:url" content="https://shubhamkhatikportfolio.onrender.com/" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+    <script>
+      // apply saved theme before paint to avoid a flash
+      try {
+        var t = localStorage.getItem("srk-theme");
+        if (!t) t = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Shubham Khatik",
+        "alternateName": "SRKhatik",
+        "jobTitle": "Shopify Developer",
+        "email": "mailto:shubhamkhatik@mkoji.com",
+        "address": { "@type": "PostalAddress", "addressLocality": "Hinganghat", "addressRegion": "Maharashtra", "addressCountry": "IN" },
+        "brand": { "@type": "Brand", "name": "MKOJI", "url": "https://www.mkoji.com/" },
+        "sameAs": ["https://github.com/SRKhatik", "https://www.linkedin.com/in/shubham-khatik-4a21a9203/", "https://www.instagram.com/shubham.khatik.1650/"]
       }
-      * {
-        font-family: "Gumela";
-        font-weight: normal;
-        font-size: 20px;
-      }
-      body {
-        margin: 0; 
-      }
-    </style>
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>Shubham Khatik: Shopify developer. Email shubhamkhatik@mkoji.com</noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
