@@ -64,7 +64,7 @@ export const contact = {
 export const socials = [
   { id: "github", label: "GitHub", handle: "@SRKhatik", url: "https://github.com/SRKhatik" },
   { id: "linkedin", label: "LinkedIn", handle: "shubham-khatik", url: "https://www.linkedin.com/in/shubham-khatik-4a21a9203/" },
-  { id: "instagram", label: "Instagram", handle: "@shubham.khatik.1650", url: "https://www.instagram.com/shubham.khatik.1650/" },
+  { id: "instagram", label: "Instagram", handle: "@shubham_k1410", url: "https://www.instagram.com/shubham_k1410/" },
   { id: "email", label: "Email", handle: contact.email, url: `mailto:${contact.email}` },
 ];
 
