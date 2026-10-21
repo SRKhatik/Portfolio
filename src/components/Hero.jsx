@@ -87,7 +87,7 @@ export default function Hero({ onAsk }) {
           <motion.div className="hero__cta" {...enter(0.4)}>
             <a href="#contact" className="btn btn--primary">Let&apos;s work together <FiArrowRight /></a>
             <button className="btn btn--ghost" onClick={onAsk}><FiMessageCircle /> Ask SRK agent</button>
-            <a href={profile.resume} download className="btn btn--ghost"><FiDownload /> Resume</a>
+            <a href={profile.resume} download={profile.resumeName} className="btn btn--ghost"><FiDownload /> Resume</a>
           </motion.div>
 
           <motion.div className="socials" {...enter(0.5)}>

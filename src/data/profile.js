@@ -26,7 +26,8 @@ export const profile = {
   location: "Hinganghat, Maharashtra, India",
   availability: "Open to full-time roles, freelance projects & collaborations",
   experienceYears: 9, // shown as "9+ years" across the site and by the agent
-  resume: "/Resume.pdf",
+  resume: "/Mr.Shubham%20Kahtik%20cv.pdf", // file in /public
+  resumeName: "Shubham Khatik CV.pdf", // filename visitors get when downloading
 };
 
 /** My own D2C brand. Links come from mkoji.com; add/remove a link = add/remove a line. */

@@ -34,11 +34,15 @@ async function ask(history) {
   return localAnswer(question);
 }
 
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const RICH_RE = new RegExp(`(https?:\\/\\/[^\\s)]+|[\\w.+-]+@[\\w-]+\\.[\\w.]+|${escapeRe(profile.resume)})`, "g");
+
 /** Turns URLs, emails and the resume path into links; keeps line breaks. */
 function RichText({ text }) {
-  const parts = text.split(/(https?:\/\/[^\s)]+|[\w.+-]+@[\w-]+\.[\w.]+|\/Resume\.pdf)/g);
+  const parts = text.split(RICH_RE);
   return parts.map((p, i) => {
-    if (/^https?:\/\//.test(p) || p === "/Resume.pdf") return <a key={i} href={p} target="_blank" rel="noreferrer">{p.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}</a>;
+    if (p === profile.resume) return <a key={i} href={p} download={profile.resumeName}>{profile.resumeName}</a>;
+    if (/^https?:\/\//.test(p)) return <a key={i} href={p} target="_blank" rel="noreferrer">{p.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}</a>;
     if (/@/.test(p) && /^[\w.+-]+@/.test(p)) return <a key={i} href={`mailto:${p}`}>{p}</a>;
     return <span key={i}>{p}</span>;
   });
