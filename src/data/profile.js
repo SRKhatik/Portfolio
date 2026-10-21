@@ -34,11 +34,11 @@ export const brand = {
   name: "MKOJI",
   logo: "mkoji",
   product: "Makhana",
-  founded: 2024,
+  founded: 2026,
   role: "Founder",
   tagline: "Roasted flavoured makhana from Hinganghat.",
   description:
-    "MKOJI is Shubham's own makhana (fox nut) brand, founded in 2024 in Hinganghat. He built the website and runs the brand's online sales himself, on mkoji.com, Amazon, Flipkart and Google Shopping.",
+    "MKOJI is Shubham's own makhana (fox nut) brand, founded in 2026 in Hinganghat. He built the website and runs the brand's online sales himself, on mkoji.com, Amazon, Flipkart and Google Shopping.",
   flavours: ["Nagpuri Tadka", "Butter Delight", "Royal SweetNut", "Phool Makhana"],
   highlights: ["Roasted, not fried", "No palm oil", "No preservatives", "Delivery across India"],
   website: "https://www.mkoji.com/",
@@ -187,7 +187,7 @@ export const experience = [
     company: "MKOJI Makhana (own brand)",
     role: "Founder",
     logo: "mkoji",
-    period: "2024 – Present",
+    period: "2026 – Present",
     type: "Own business · Hinganghat",
     points: [
       "Founded a roasted flavoured makhana brand (no palm oil, no preservatives).",
@@ -408,7 +408,7 @@ export const education = [
 ];
 
 export const achievements = [
-  "Founded MKOJI Makhana (2024), selling on mkoji.com, Amazon & Flipkart",
+  "Founded MKOJI Makhana (2026), selling on mkoji.com, Amazon & Flipkart",
   "Best MI Idea Award 2019, HNI Office India Ltd, Nagpur",
   "Shipped Shopify stores for brands in India, the USA, UK, Canada & Australia",
 ];
